@@ -1,0 +1,505 @@
+@font-face {
+  font-family: 'Frijole';
+  src: url('/fonts/Frijole.woff2') format('woff2'), url('/fonts/Frijole.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-Italic.woff2') format('woff2'), url('/fonts/Exo2-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-Black.woff2') format('woff2'), url('/fonts/Exo2-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-Bold.woff2') format('woff2'), url('/fonts/Exo2-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-Regular.woff2') format('woff2'), url('/fonts/Exo2-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-BoldItalic.woff2') format('woff2'), url('/fonts/Exo2-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-BlackItalic.woff2') format('woff2'), url('/fonts/Exo2-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-ExtraLightItalic.woff2') format('woff2'),
+    url('/fonts/Exo2-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-Regular.woff2') format('woff2'), url('/fonts/Exo2-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-ExtraLight.woff2') format('woff2'), url('/fonts/Exo2-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-ExtraBold.woff2') format('woff2'), url('/fonts/Exo2-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-SemiBold.woff2') format('woff2'), url('/fonts/Exo2-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-Italic.woff2') format('woff2'), url('/fonts/Exo2-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-ExtraBoldItalic.woff2') format('woff2'), url('/fonts/Exo2-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-LightItalic.woff2') format('woff2'), url('/fonts/Exo2-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-MediumItalic.woff2') format('woff2'), url('/fonts/Exo2-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-Light.woff2') format('woff2'), url('/fonts/Exo2-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-Medium.woff2') format('woff2'), url('/fonts/Exo2-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-SemiBoldItalic.woff2') format('woff2'), url('/fonts/Exo2-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-Thin.woff2') format('woff2'), url('/fonts/Exo2-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Exo 2';
+  src: url('/fonts/Exo2-ThinItalic.woff2') format('woff2'), url('/fonts/Exo2-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+:root {
+  --primary-color: #7368ff;
+  --secondary-color: #09ded8;
+  --background-color: #282828;
+  /* --background-color: #ffffff; */
+  --dark-grey: #616161;
+  --text-color: #ffffff;
+  --article-text-color: #444;
+}
+
+/* [data-theme='light'] {
+} */
+
+body {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  margin: 0;
+  color: #c2c2c2;
+  font-size: 1.3rem;
+  background: var(--background-color);
+}
+
+.cont {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1%;
+}
+
+/*              header         */
+.header__picture {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.header-contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 37%;
+  padding: 2px 30px;
+}
+
+.header-contact > li > a > i {
+  color: var(--secondary-color);
+  font-size: 2.5rem;
+}
+.header-contact > li > a {
+  font-family: 'Exo 2', sans-serif;
+  font-style: light;
+  font-weight: 300;
+  font-size: 1.2rem;
+  background-color: black;
+  padding: 10px;
+  letter-spacing: 1.3px;
+  color: gray;
+  font-size: 1rem;
+}
+
+.header-contact > li:nth-child(1) {
+  margin-bottom: 2%;
+}
+
+.header-contact > li > a:hover,
+.header-contact > li > a > i:hover {
+  color: var(--primary-color);
+}
+
+.logo {
+  position: relative;
+  color: #ffffffbb;
+  font-size: 1.5rem;
+}
+
+.logo > span:nth-child(1) {
+  color: var(--secondary-color);
+}
+
+.logo > span:nth-child(2) {
+  font-size: 30px;
+}
+
+.header--title {
+  font-family: 'Frijole';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 6rem;
+  background-image: linear-gradient(45deg, var(--primary-color) 32.5%, var(--secondary-color) 50.5%);
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.header-shape-1 {
+  height: 9px;
+  margin-bottom: 21px;
+  background: linear-gradient(
+    60deg,
+    var(--primary-color) 20%,
+    transparent 32.5%,
+    var(--secondary-color) 11%,
+    transparent 60.5%
+  );
+}
+
+.shape-wrapper .header-shape-2 {
+  height: 7px;
+  margin-bottom: 10px;
+  background: linear-gradient(45deg, transparent 58.5%, var(--secondary-color));
+}
+
+.shape-wrapper .header-shape-3 {
+  height: 11px;
+  background: linear-gradient(45deg, transparent 72%, var(--primary-color));
+}
+
+.header--subtitle > p {
+  font-family: 'Exo 2', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.9;
+  font-size: 1.8rem;
+  letter-spacing: 1.4px;
+  color: #c2c2c2;
+}
+
+.header--subtitle > p > span {
+  background: #000000;
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+.header-keyword {
+  font-family: 'Frijole';
+  font-size: inherit;
+  color: rgb(255, 255, 255);
+  background-size: 100%;
+  background-image: linear-gradient(45deg, var(--primary-color) 32.5%, var(--secondary-color) 50.5%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.item-bubble {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 28% 72% 54% 46% / 61% 40% 60% 39%;
+  box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(255, 255, 255, 0.6) inset;
+}
+
+.main__title {
+  font-family: 'Frijole', cursive;
+  font-family: 'Frijole';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 4rem;
+  padding: 30px 0;
+}
+/*       main           */
+/* -------------------------------showcase section */
+.main__title {
+  text-align: center;
+}
+
+.main__title > i {
+  color: var(--secondary-color);
+}
+
+.showcase__item__main > a > img {
+  width: 100%;
+  min-width: 300px;
+}
+
+.showcase__item {
+  display: flex;
+}
+
+/* --------------------------------- toolbox section */
+
+.showtools__title i {
+  color: var(--secondary-color);
+}
+
+.showtools__title {
+  font-family: 'Frijole';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 4rem;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.showtools h2 {
+  font-family: 'Exo 2';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.showtools h3 {
+  font-family: 'Exo 2';
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 10%;
+}
+/* ------------------------------------------- footer */
+
+.footer__pre > a > p {
+  text-align: center;
+  background-color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 1.3px;
+  color: #000000;
+  padding: 2px 0;
+}
+
+.footer__pre > a > p > i {
+  font-size: 1.6rem;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer__contact {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__contact > li {
+  padding: 7px;
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 1.1px;
+}
+
+.footer__contact > li i {
+  font-size: 1.5rem;
+}
+
+.footer__bottom {
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: inset 0px -34px 24px -24px rgba(255, 255, 255, 0.6);
+}
+.credits {
+  font-weight: 200;
+  font-size: 1rem;
+  letter-spacing: 1.4px;
+  color: #c2c2c2;
+}
+
+/* -----------------------------------tests */
+.bg-yellow {
+  background-color: rgb(172, 172, 96);
+}
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+/* padding-top: 56.25%; / 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+@media (max-width: 611px) {
+  .header--title {
+    font-size: 2.5rem;
+  }
+
+  .header--subtitle > p {
+    font-size: 1.2rem;
+  }
+
+  .header-contact > li > a > i {
+    font-size: 1rem;
+  }
+
+  .header-contact {
+    margin-left: 0;
+  }
+
+  .header-contact > li > a {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  .logo {
+    font-size: 1rem;
+  }
+
+  .item {
+    width: 50px;
+    height: 50px;
+  }
+}
